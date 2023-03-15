@@ -7,8 +7,8 @@ import GirlImg from "./assets/girl.png";
 import trophyImg from "./assets/trophy.png"
 
 function App() {
-  let Player1 = "Player1: Vivek";
-  let Player2 = "Player2: Abhay";
+  let Player1 = "Vivek";
+  let Player2 = "Abhay";
 
   const [diceNo, setDiceNo] = useState(Dice1);
   const [Player1Turn, setPlayer1Turn] = useState(true);
